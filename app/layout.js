@@ -22,8 +22,8 @@ export default function RootLayout({ children }) {
             <a href="#contact">Contact</a>
             <a>
               <div class="search-box">
-                <button class="btn-search">
-                  <i class="fas fa-search"></i>
+                <button class="search-btn">
+                  <i class=""></i>
                 </button>
               </div>
             </a>
