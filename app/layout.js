@@ -15,11 +15,11 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <header>
           <div class="topnav">
-            <a class="active" href="#home">
+            <a class="active" href="/">
               Home
             </a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
             <a>
               <div class="search-box">
                 <button class="search-btn">
