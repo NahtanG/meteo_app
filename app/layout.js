@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
         </header>
         <main>{children}</main>
         <footer>
-          <p>Tsuki11 © 2024 Mon app météo. Tous droits réservés.</p>
+          <p>Tsuki11 © 2024 Mon app météo.</p>
         </footer>
       </body>
     </html>
