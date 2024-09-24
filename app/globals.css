@@ -144,3 +144,7 @@ svg {
   display: flex;
   align-items: center;
 }
+
+.container {
+  margin-left: 2rem;
+}
