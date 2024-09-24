@@ -17,7 +17,7 @@ const Searchbar = () => {
           <div class="dropdown">
             <button class="dropbtn">Villes</button>
           </div>
-          Bristol
+          San Francisco
         </h1>
       </div>
     </section>
