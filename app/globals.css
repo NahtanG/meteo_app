@@ -121,3 +121,25 @@ a {
 a:hover {
   color: #ff00bb;
 }
+
+svg {
+  position: relative;
+  top: 5px;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.temperature {
+  text-shadow: 2px 2px 2px #d0cd8f;
+}
+
+.temperature svg {
+  position: auto;
+  width: 120px;
+  height: 120px;
+}
+
+.nom-ville {
+  display: flex;
+  align-items: center;
+}
