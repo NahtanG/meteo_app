@@ -14,10 +14,10 @@ const Searchbar = () => {
           <button type="submit">Rechercher</button>
         </form>
         <h1 class="city-title" id="searched-city">
-          <div class="dropdown">
-            <button class="dropbtn">Villes</button>
-          </div>
           San Francisco
+          <div class="dropdown">
+            <button class="dropbtn">Détails</button>
+          </div>
         </h1>
       </div>
     </section>

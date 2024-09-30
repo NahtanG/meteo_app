@@ -148,3 +148,123 @@ svg {
 .container {
   margin-left: 2rem;
 }
+
+.weather-header {
+  background-color: #3498db;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+.weather-row {
+  background-color: #ecf0f1;
+  border-bottom: 1px solid #bdc3c7;
+}
+
+.weather-cell {
+  padding: 10px;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.san-francisco {
+  background-color: #f0f8ff;
+  color: #2c3e50;
+}
+
+.san-francisco .city-title {
+  color: #2980b9;
+}
+
+.san-francisco .temp-title {
+  color: #e74c3c;
+}
+
+.san-francisco .todays-info {
+  background-color: #ecf0f1;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.san-francisco .side-info {
+  color: #8e44ad;
+}
+
+.san-francisco .week-forecast {
+  color: #16a085;
+}
+
+.san-francisco .weather {
+  color: #d35400;
+}
+
+.san-francisco footer {
+  background-color: #bdc3c7;
+  padding: 20px;
+  border-top: 1px solid #7f8c8d;
+}
+.weather-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.tbl-header {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.tbl-content {
+  height: 300px;
+  overflow-x: auto;
+  margin-top: 0px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+th {
+  padding: 20px 15px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+td {
+  padding: 15px;
+  text-align: left;
+  vertical-align: middle;
+  font-weight: 300;
+  font-size: 12px;
+  color: #fff;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+}
+.weather-page table {
+  border-collapse: separate;
+  border-spacing: 0 15px;
+  width: 100%;
+  max-width: 800px;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.weather-page th,
+.weather-page td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.weather-page th {
+  background-color: #3498db;
+  color: #ffffff;
+}
+
+.weather-page td {
+  background-color: #ecf0f1;
+}
