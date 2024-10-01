@@ -116,13 +116,16 @@ footer {
 
 a {
   text-decoration: none;
-  color: #43c90a;
+  color: #504e48;
 }
 
 a:hover {
-  color: #ff00bb;
+  color: #787771;
 }
 
+a:active {
+  color: #9e6037;
+}
 svg {
   position: relative;
   top: 5px;
@@ -267,4 +270,16 @@ td {
 
 .weather-page td {
   background-color: #ecf0f1;
+}
+
+.detailsbtn:hover {
+  background-color: #b9b559;
+  color: white;
+}
+
+.global-weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
 }

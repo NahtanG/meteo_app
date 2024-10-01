@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Searchbar = () => {
   return (
     <section class="container">
@@ -16,7 +18,9 @@ const Searchbar = () => {
         <h1 class="city-title" id="searched-city">
           San Francisco
           <div class="dropdown">
-            <button class="dropbtn">Détails</button>
+            <button class="detailsbtn">
+              <Link href="/villes/SanFransisco.js">Détails</Link>
+            </button>
           </div>
         </h1>
       </div>

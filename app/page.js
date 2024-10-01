@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Searchbar from "./components/Searchbar";
 import RainSvg from "./components/RainSvg";
 import ColdSvg from "./components/ColdSvg";
+import Link from "next/link";
 
 export default function Home() {
   return (
